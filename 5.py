@@ -15,7 +15,7 @@ def main() -> int:
 
     plt.errorbar(_x, _y, xerr=0.05, yerr=0.1)
 
-    plt.plot(_x, _y)
+    # plt.plot(_x, _y)
     plt.plot(_xx, np.poly1d(p)(_xx))
 
     plt.show()
